@@ -1,0 +1,129 @@
+_type: export
+__export_format: 4
+__export_date: 2023-07-28T00:50:20.477Z
+__export_source: insomnia.desktop.app:v2023.4.0
+resources:
+  - _id: req_a0db5e90173a4c8880c6a04fcac1f994
+    parentId: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    modified: 1690505307270
+    created: 1690505219415
+    url: localhost:5000/product/b500617e-bd80-4e38-bdcf-bb3b3fffd1e0
+    name: Update Product
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "macbook pro"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1690505219415
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    parentId: null
+    modified: 1690504543659
+    created: 1690504543659
+    name: Bulletproof
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_847727bf89304964bd48db840d243abb
+    parentId: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    modified: 1690505202925
+    created: 1690505181978
+    url: localhost:5000/product/61601b12-3ce6-4b72-94f4-8d313d957091
+    name: Delete Product
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1690505181978
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2f114473e236471b8e41536e91193fb4
+    parentId: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    modified: 1690505105870
+    created: 1690504722440
+    url: localhost:5000/product
+    name: Add Product
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "tuxedo gen 17"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1690504722440
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_42df3efa1fb44e329575fbe93353dc8d
+    parentId: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    modified: 1690505266741
+    created: 1690504550702
+    url: localhost:5000/product
+    name: Get Products
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1690504550702
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_084d75c50de969383d94a7c3a523e959d2812b3a
+    parentId: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    modified: 1690504543662
+    created: 1690504543662
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1690504543662
+    _type: environment
+  - _id: jar_084d75c50de969383d94a7c3a523e959d2812b3a
+    parentId: wrk_a45bbf0fd5f94411aff56c43c27d024d
+    modified: 1690504543663
+    created: 1690504543663
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
